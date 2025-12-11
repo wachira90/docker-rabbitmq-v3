@@ -30,6 +30,10 @@ docker run -d --hostname my-rabbit --name rabbitmq-server \
 ติดตั้ง Library `pika` ที่เป็น client ยอดนิยมสำหรับ RabbitMQ:
 
 ```bash
+python -m venv env
+
+.\env\Scripts\activate
+
 pip install pika
 ```
 
